@@ -48,7 +48,6 @@ public class UserController {
 			else
 				return "login";
 		}
-		
 		@GetMapping("/logout")
 		public String logout(HttpSession session) {
 			session.invalidate();

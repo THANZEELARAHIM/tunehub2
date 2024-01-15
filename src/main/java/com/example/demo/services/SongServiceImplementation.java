@@ -24,8 +24,5 @@ public List<Song> fetchAllSongs(){
 	public void updateSongs(Song song) {
 		repo.save(song);
 	}
-	
-	
+}
 
-}
-}

@@ -1,9 +1,6 @@
 package com.example.demo.entities;
-
 import java.util.List;
-
 import jakarta.persistence.*;
-
 @Entity
 public class Playlist {
 	@Id
@@ -43,7 +40,5 @@ public class Playlist {
 	@Override
 	public String toString() {
 		return "Playlist [id=" + id + ", name=" + name + ", songs=" + songs + "]";
-	}	
-	
-	
+	}
 }
